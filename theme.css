@@ -84,7 +84,7 @@ div.header span {
 }
 .title-button {
   position: absolute;
-  top: 310px;
+  top: 50vh;
   left: 10.5vw;
 }
 .fill {

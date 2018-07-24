@@ -132,6 +132,24 @@ div.header span {
   }
 }
 
+@media only screen and (max-width: 389px) {
+  .headline {
+    top: 22vh;
+    line-height: 50px;
+  }
+  .subheadline {
+    top: 42vh;
+    line-height: 30px;
+  }
+  .title-button {
+    top: 56vh;
+  }
+  div.header span {
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
   .headline {
     font-size: 50px;

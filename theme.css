@@ -97,7 +97,6 @@ div.header span {
 .fill img {
     flex-shrink: 0;
     width: 100%;
-    min-width: 300px;
     max-width: 500px;
     widht: auto;
 }

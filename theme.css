@@ -22,6 +22,7 @@ h4, h5, h6{
 }
 .thumbnail{
   padding: 30px;
+  margin: 50px;
 }
 div.header {
   display:table;
@@ -118,6 +119,10 @@ div.header span {
   .subheadline {
     font-size: 14px;
   }
+  .thumbnail{
+  padding: 10px;
+  margin: 10px;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -126,5 +131,9 @@ div.header span {
   }
   .subheadline {
     font-size: 20px;
+  }
+  .thumbnail{
+  padding: 50px;
+  margin: 70px;
   }
 }

@@ -106,22 +106,29 @@ div.header span {
     min-width: 200px;
     max-width: 300px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 767px) {
   div.header{
     display:table;
       table-layout: auto;
       width: 100%;
   }
   .headline {
-    font-size: 35px;
+    font-size: 38.35px;
   }
   .subheadline {
-    font-size: 14px;
+    font-size: 15.34px;
   }
   .thumbnail{
-  padding: 10px;
   margin: 10px;
+  }
+  .profile-pic{
+    width: 70vw;
+    max-width: 500px;
+    height: auto;
   }
 }
 
